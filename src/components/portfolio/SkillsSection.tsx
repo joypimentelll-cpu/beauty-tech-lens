@@ -1,6 +1,6 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 import { motion } from 'framer-motion';
-import { Microscope, Cpu } from 'lucide-react';
+import { Microscope, Cpu, Code, Server, Database } from 'lucide-react';
 
 const SkillsSection = () => {
   const { t } = useLanguage();
@@ -8,11 +8,14 @@ const SkillsSection = () => {
   const blocks = [
     { key: 'lab', icon: Microscope },
     { key: 'tech', icon: Cpu },
+    { key: 'frontend', icon: Code },
+    { key: 'backend', icon: Server },
+    { key: 'database', icon: Database },
   ];
 
   return (
     <section id="skills" className="py-32 px-6">
-      <div className="container mx-auto max-w-4xl">
+      <div className="container mx-auto max-w-5xl">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -21,10 +24,11 @@ const SkillsSection = () => {
           className="text-center mb-16"
         >
           <p className="text-sm tracking-[0.3em] uppercase text-accent mb-4 font-sans">{t('skills_title')}</p>
+          <p className="body-text text-muted-foreground max-w-2xl mx-auto mb-8">{t('skills_desc')}</p>
           <div className="section-divider mb-8" />
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {blocks.map(({ key, icon: Icon }, i) => (
             <motion.div
               key={key}
