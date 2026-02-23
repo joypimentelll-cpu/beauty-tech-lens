@@ -10,7 +10,7 @@ const langLabels: Record<Language, string> = {
   es: 'ES',
 };
 
-const navKeys = ['about', 'science', 'experience', 'skills', 'vision', 'contact'] as const;
+const navKeys = ['about', 'science', 'experience', 'skills', 'projects', 'vision', 'contact'] as const;
 
 const Header = () => {
   const { language, setLanguage, t } = useLanguage();
