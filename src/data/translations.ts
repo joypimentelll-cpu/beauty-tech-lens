@@ -8,6 +8,7 @@ export const translations: Record<Language, Record<string, string>> = {
     nav_experience: 'Experiência',
     nav_skills: 'Competências',
     nav_vision: 'Visão',
+    nav_projects: 'Projetos',
     nav_contact: 'Contato',
 
     // Hero
@@ -53,6 +54,18 @@ export const translations: Record<Language, Record<string, string>> = {
     skills_database_title: 'Banco de Dados',
     skills_database_desc: 'MySQL para modelagem, consultas e persistência de dados.',
 
+    // Projects
+    projects_title: 'Projetos',
+    projects_desc: 'Projetos desenvolvidos com foco em tecnologia, inovação e soluções práticas.',
+    projects_1_title: 'Portfólio Pessoal',
+    projects_1_desc: 'Site pessoal responsivo com design moderno, acessibilidade e suporte multilíngue.',
+    projects_2_title: 'API REST',
+    projects_2_desc: 'API robusta com autenticação, CRUD completo e documentação Swagger.',
+    projects_3_title: 'Dashboard Analítico',
+    projects_3_desc: 'Painel de visualização de dados com IA para análise de indicadores industriais.',
+    projects_repo: 'Repositório',
+    projects_url: 'Projeto',
+
     // Vision
     vision_title: 'Visão Profissional',
     vision_desc: 'Atuar em ambientes industriais inovadores, especialmente na indústria cosmética, aplicando ciência, tecnologia e dados para excelência, inovação e transformação digital.',
@@ -75,6 +88,7 @@ export const translations: Record<Language, Record<string, string>> = {
     nav_experience: 'Experience',
     nav_skills: 'Skills',
     nav_vision: 'Vision',
+    nav_projects: 'Projects',
     nav_contact: 'Contact',
 
     hero_tagline: 'Data-driven science. Technology-powered quality.',
@@ -115,6 +129,17 @@ export const translations: Record<Language, Record<string, string>> = {
     skills_database_title: 'Database',
     skills_database_desc: 'MySQL for data modeling, queries, and persistence.',
 
+    projects_title: 'Projects',
+    projects_desc: 'Projects developed with a focus on technology, innovation, and practical solutions.',
+    projects_1_title: 'Personal Portfolio',
+    projects_1_desc: 'Responsive personal website with modern design, accessibility, and multilingual support.',
+    projects_2_title: 'REST API',
+    projects_2_desc: 'Robust API with authentication, full CRUD, and Swagger documentation.',
+    projects_3_title: 'Analytics Dashboard',
+    projects_3_desc: 'Data visualization dashboard with AI for industrial indicator analysis.',
+    projects_repo: 'Repository',
+    projects_url: 'Project',
+
     vision_title: 'Professional Vision',
     vision_desc: 'To work in innovative industrial environments, especially in the cosmetics industry, applying science, technology, and data for excellence, innovation, and digital transformation.',
 
@@ -133,6 +158,7 @@ export const translations: Record<Language, Record<string, string>> = {
     nav_experience: 'Experiencia',
     nav_skills: 'Competencias',
     nav_vision: 'Visión',
+    nav_projects: 'Proyectos',
     nav_contact: 'Contacto',
 
     hero_tagline: 'Ciencia orientada por datos. Calidad impulsada por tecnología.',
@@ -172,6 +198,17 @@ export const translations: Record<Language, Record<string, string>> = {
     skills_backend_desc: 'Java y Spring Boot para desarrollo de APIs y aplicaciones robustas.',
     skills_database_title: 'Base de Datos',
     skills_database_desc: 'MySQL para modelado, consultas y persistencia de datos.',
+
+    projects_title: 'Proyectos',
+    projects_desc: 'Proyectos desarrollados con enfoque en tecnología, innovación y soluciones prácticas.',
+    projects_1_title: 'Portafolio Personal',
+    projects_1_desc: 'Sitio personal responsivo con diseño moderno, accesibilidad y soporte multilingüe.',
+    projects_2_title: 'API REST',
+    projects_2_desc: 'API robusta con autenticación, CRUD completo y documentación Swagger.',
+    projects_3_title: 'Dashboard Analítico',
+    projects_3_desc: 'Panel de visualización de datos con IA para análisis de indicadores industriales.',
+    projects_repo: 'Repositorio',
+    projects_url: 'Proyecto',
 
     vision_title: 'Visión Profesional',
     vision_desc: 'Actuar en ambientes industriales innovadores, especialmente en la industria cosmética, aplicando ciencia, tecnología y datos para excelencia, innovación y transformación digital.',
