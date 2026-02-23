@@ -128,6 +128,20 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Foco visível (CRÍTICO para acessibilidade) */
+:focus {
+  outline: 2px solid hsl(var(--accent));
+  outline-offset: 2px;
+}
+
+/* Redução de animações para usuários sensíveis */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
