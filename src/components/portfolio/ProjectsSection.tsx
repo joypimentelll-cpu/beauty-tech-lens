@@ -16,9 +16,9 @@ const projects: Project[] = [
     titleKey: 'projects_1_title',
     descKey: 'projects_1_desc',
     techKeys: ['React', 'TypeScript', 'Tailwind CSS'],
-    projectUrl: '',
-    demoUrl: '',
-    repoUrl: 'https://github.com/',
+    projectUrl: 'https://lovable.dev/projects/040197be-8221-4062-8f97-fd42d48b0033',
+    demoUrl: 'https://portfoliobit.lovable.app',
+    repoUrl: '',
   },
   {
     titleKey: 'projects_2_title',
