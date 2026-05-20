@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="border-t border-border/30 py-8 px-6">
       <div className="container mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
         <p className="text-sm text-muted-foreground tracking-widest font-sans">
-          © {year} Joyce Cristina Pimentel
+          © {year} Joyce Pimentel
         </p>
         <p className="text-xs text-muted-foreground/60 tracking-wider font-sans">
           {t('footer_rights')}
