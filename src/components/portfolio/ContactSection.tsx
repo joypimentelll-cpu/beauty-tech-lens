@@ -6,9 +6,9 @@ const ContactSection = () => {
   const { t } = useLanguage();
 
   const items = [
-    { key: 'email', icon: Mail, value: 'joyce.pimentel@email.com', href: 'mailto:joyce.pimentel@email.com' },
+    { key: 'email', icon: Mail, value: 'Joycepimentel10@gmail.com', href: 'mailto:Joycepimentel10@gmail.com' },
     { key: 'phone', icon: Phone, value: '+55 (00) 00000-0000', href: 'tel:+5500000000000' },
-    { key: 'linkedin', icon: Linkedin, value: 'LinkedIn', href: 'https://linkedin.com/in/' },
+    { key: 'linkedin', icon: Linkedin, value: 'LinkedIn', href: 'https://www.linkedin.com/in/joyce-santo-0285a6122' },
   ];
 
   return (
