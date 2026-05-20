@@ -24,7 +24,7 @@ const HeroSection = () => {
             Portfolio
           </p>
           <h1 className="luxury-text text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-light leading-[1.1] text-foreground mb-8">
-            Joyce Cristina
+            Joyce
             <br />
             <span className="text-gradient-gold">Pimentel</span>
           </h1>
