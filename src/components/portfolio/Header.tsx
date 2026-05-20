@@ -32,7 +32,7 @@ const Header = () => {
     >
       <div className="container mx-auto flex items-center justify-between px-6 py-4">
         <button onClick={() => scrollTo('hero')} className="luxury-text text-lg tracking-[0.2em] text-foreground uppercase">
-          Joyce C. Pimentel
+          Joyce Pimentel
         </button>
 
         {/* Desktop nav */}
