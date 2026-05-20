@@ -1,7 +1,7 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 import { motion } from 'framer-motion';
 
-const expKeys = ['lab', 'micro', 'quality', 'env'] as const;
+const items = ['1', '2', '3'] as const;
 
 const ExperienceSection = () => {
   const { t } = useLanguage();
@@ -19,19 +19,24 @@ const ExperienceSection = () => {
           <div className="section-divider !mx-0 mb-12" />
 
           <div className="space-y-0">
-            {expKeys.map((key, i) => (
+            {items.map((n, i) => (
               <motion.div
-                key={key}
+                key={n}
                 initial={{ opacity: 0, x: -20 }}
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
-                className="flex items-center gap-6 py-6 border-b border-border/30 group"
+                className="flex gap-6 py-8 border-b border-border/30 group"
               >
-                <span className="text-sm text-accent/50 font-sans tracking-widest">0{i + 1}</span>
-                <h3 className="luxury-text text-xl sm:text-2xl text-foreground/80 group-hover:text-foreground transition-colors duration-300">
-                  {t(`exp_${key}`)}
-                </h3>
+                <span className="text-sm text-accent/50 font-sans tracking-widest pt-1">0{i + 1}</span>
+                <div className="flex-1">
+                  <h3 className="luxury-text text-xl sm:text-2xl text-foreground/90 group-hover:text-foreground transition-colors duration-300 mb-2">
+                    {t(`exp_${n}_title`)}
+                  </h3>
+                  <p className="body-text text-muted-foreground leading-relaxed">
+                    {t(`exp_${n}_desc`)}
+                  </p>
+                </div>
               </motion.div>
             ))}
           </div>
