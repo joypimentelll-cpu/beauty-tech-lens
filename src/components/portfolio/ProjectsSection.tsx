@@ -1,6 +1,7 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 import { motion } from 'framer-motion';
-import { Github, Globe } from 'lucide-react';
+import { Github, Globe, ArrowUpRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 interface Project {
   titleKey: string;
@@ -8,6 +9,7 @@ interface Project {
   tech: string[];
   demoUrl?: string;
   repoUrl?: string;
+  detailUrl?: string;
 }
 
 const projects: Project[] = [
@@ -53,6 +55,13 @@ const projects: Project[] = [
     descKey: 'p_smart_desc',
     tech: ['Power Apps', 'SharePoint', 'Low-Code', 'UX/UI'],
     demoUrl: 'https://apps.powerapps.com/play/e/default-279e4974-0f51-498c-b0d7-be0bc2b09aea/a/46d4288b-e1b1-4eda-b9d6-a5b5321351dc?tenantId=279e4974-0f51-498c-b0d7-be0bc2b09aea&hint=06f704ad-e057-4430-9d7e-1958c3bae953&sourcetime=1772215575013&authuser=0',
+  },
+  {
+    titleKey: 'p_banco_title',
+    descKey: 'p_banco_desc',
+    tech: ['Python', 'OOP', 'ABC', 'Software Design'],
+    repoUrl: 'https://github.com/joypimentelll-cpu',
+    detailUrl: '/projects/sistema-bancario',
   },
 ];
 
@@ -130,6 +139,16 @@ const ProjectsSection = () => {
                     <Globe className="w-4 h-4" />
                     <span>Demo</span>
                   </a>
+                )}
+                {project.detailUrl && (
+                  <Link
+                    to={project.detailUrl}
+                    className="ml-auto flex items-center gap-1.5 text-sm text-accent hover:text-accent/80 transition-colors"
+                    aria-label={`${t('projects_case_study')} - ${t(project.titleKey)}`}
+                  >
+                    <span>{t('projects_case_study')}</span>
+                    <ArrowUpRight className="w-4 h-4" />
+                  </Link>
                 )}
               </div>
             </motion.div>
