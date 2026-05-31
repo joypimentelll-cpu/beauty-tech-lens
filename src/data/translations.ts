@@ -78,6 +78,9 @@ export const translations: Record<Language, Record<string, string>> = {
     p_zap_desc: 'Aplicação moderna com foco em automação visual, microinterações e experiência digital fluida.',
     p_smart_title: 'Smart Business Automation',
     p_smart_desc: 'Aplicação Power Apps com foco em automação de processos, integração SharePoint, UX e soluções digitais inteligentes Low-Code.',
+    p_banco_title: 'Sistema Bancário Otimizado',
+    p_banco_desc: 'Refatoração completa de um sistema bancário legado para Programação Orientada a Objetos em Python, aplicando herança, polimorfismo, ABC e encapsulamento.',
+    projects_case_study: 'Ver Case Study',
 
     // Vision
     vision_title: 'Visão Profissional',
@@ -164,6 +167,9 @@ export const translations: Record<Language, Record<string, string>> = {
     p_zap_desc: 'Modern app focused on visual automation, micro-interactions and a fluid digital experience.',
     p_smart_title: 'Smart Business Automation',
     p_smart_desc: 'Power Apps application focused on process automation, SharePoint integration, UX and smart Low-Code digital solutions.',
+    p_banco_title: 'Optimized Banking System',
+    p_banco_desc: 'Full refactor of a legacy banking system into Object-Oriented Python, applying inheritance, polymorphism, ABC and encapsulation.',
+    projects_case_study: 'View Case Study',
 
     vision_title: 'Professional Vision',
     vision_desc: 'I seek to build modern digital products that strategically combine technology, user experience, science and innovation — in teams that value creativity, continuous learning and collaborative building.',
@@ -246,6 +252,9 @@ export const translations: Record<Language, Record<string, string>> = {
     p_zap_desc: 'Aplicación moderna con foco en automatización visual, micro-interacciones y experiencia digital fluida.',
     p_smart_title: 'Smart Business Automation',
     p_smart_desc: 'Aplicación Power Apps con foco en automatización de procesos, integración SharePoint, UX y soluciones digitales inteligentes Low-Code.',
+    p_banco_title: 'Sistema Bancario Optimizado',
+    p_banco_desc: 'Refactorización completa de un sistema bancario legado a Programación Orientada a Objetos en Python, aplicando herencia, polimorfismo, ABC y encapsulamiento.',
+    projects_case_study: 'Ver Case Study',
 
     vision_title: 'Visión Profesional',
     vision_desc: 'Busco crear productos digitales modernos que unan tecnología, experiencia del usuario, ciencia e innovación de forma estratégica — en equipos que valoren la creatividad, el aprendizaje continuo y la construcción colaborativa.',
