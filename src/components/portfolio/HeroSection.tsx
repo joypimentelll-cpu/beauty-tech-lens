@@ -12,8 +12,11 @@ const HeroSection = () => {
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
-        <img src={heroBg} alt="" className="w-full h-full object-cover opacity-50" />
-        <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, hsl(270 15% 6% / 0.6), hsl(270 15% 6% / 0.9))' }} />
+        <img src={heroBg} alt="" className="w-full h-full object-cover opacity-15" />
+        <div
+          className="absolute inset-0"
+          style={{ background: 'linear-gradient(to bottom, hsl(var(--background) / 0.85), hsl(var(--background) / 0.98))' }}
+        />
       </div>
 
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
