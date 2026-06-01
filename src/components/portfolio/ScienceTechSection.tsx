@@ -16,7 +16,7 @@ const ScienceTechSection = () => {
     <section id="science" className="py-32 px-6 relative">
       {/* Subtle glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full opacity-20 animate-glow-pulse pointer-events-none"
-        style={{ background: 'radial-gradient(circle, hsl(280 45% 55% / 0.3), transparent 70%)' }}
+        style={{ background: 'radial-gradient(circle, hsl(var(--primary) / 0.12), transparent 70%)' }}
       />
 
       <div className="container mx-auto max-w-5xl relative z-10">
