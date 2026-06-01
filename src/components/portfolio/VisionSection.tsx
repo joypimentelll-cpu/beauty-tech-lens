@@ -7,7 +7,7 @@ const VisionSection = () => {
   return (
     <section id="vision" className="py-32 px-6 relative">
       <div className="absolute inset-0 pointer-events-none" style={{
-        background: 'linear-gradient(180deg, transparent 0%, hsl(280 30% 8% / 0.5) 50%, transparent 100%)'
+        background: 'linear-gradient(180deg, transparent 0%, hsl(var(--muted) / 0.6) 50%, transparent 100%)'
       }} />
       <div className="container mx-auto max-w-3xl relative z-10">
         <motion.div
