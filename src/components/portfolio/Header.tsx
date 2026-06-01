@@ -28,7 +28,7 @@ const Header = () => {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6 }}
       className="fixed top-0 left-0 right-0 z-50 border-b border-border/30"
-      style={{ background: 'hsl(270 15% 6% / 0.85)', backdropFilter: 'blur(20px)' }}
+      style={{ background: 'hsl(var(--background) / 0.85)', backdropFilter: 'blur(20px)' }}
     >
       <div className="container mx-auto flex items-center justify-between px-6 py-4">
         <button onClick={() => scrollTo('hero')} className="luxury-text text-lg tracking-[0.2em] text-foreground uppercase">
