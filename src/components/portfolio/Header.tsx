@@ -98,7 +98,7 @@ const Header = () => {
             animate={{ height: 'auto', opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             className="md:hidden overflow-hidden border-t border-border/30"
-            style={{ background: 'hsl(270 15% 6% / 0.95)' }}
+            style={{ background: 'hsl(var(--background) / 0.97)' }}
           >
             <div className="flex flex-col items-center gap-4 py-6">
               {navKeys.map((key) => (
